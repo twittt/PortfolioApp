@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0D51C32991AAD80059CE99 /* SocialLinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51C22991AAD80059CE99 /* SocialLinksViewModel.swift */; };
+		5A0D51C62991AB4D0059CE99 /* FirestoreNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51C52991AB4D0059CE99 /* FirestoreNetworking.swift */; };
+		5A0D51C82991ABC50059CE99 /* FirebaseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51C72991ABC50059CE99 /* FirebaseKeys.swift */; };
+		5A0D51CA2991ACBE0059CE99 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51C92991ACBE0059CE99 /* Errors.swift */; };
+		5A0D51CC2991D5AF0059CE99 /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51CB2991D5AF0059CE99 /* ResumeViewModel.swift */; };
+		5A0D51CF2991DEED0059CE99 /* RepresentOnTheAppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51CE2991DEED0059CE99 /* RepresentOnTheAppStoreView.swift */; };
+		5A0D51D12991E6720059CE99 /* AppImagesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51D02991E6720059CE99 /* AppImagesDetailView.swift */; };
+		5A0D51D42991ECEA0059CE99 /* PublicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51D32991ECEA0059CE99 /* PublicationsView.swift */; };
+		5A0D51D7299290740059CE99 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51D6299290740059CE99 /* TravelView.swift */; };
+		5A0D51D92992911F0059CE99 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51D82992911F0059CE99 /* TravelDetailView.swift */; };
+		5A0D51DB299294340059CE99 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51DA299294340059CE99 /* Destination.swift */; };
+		5A0D51DD299294640059CE99 /* TravelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51DC299294640059CE99 /* TravelViewModel.swift */; };
+		5A0D51DF2992950D0059CE99 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51DE2992950D0059CE99 /* MapView.swift */; };
+		5A0D51E129929F8C0059CE99 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51E029929F8C0059CE99 /* DestinationView.swift */; };
+		5A0D51E52992B3C50059CE99 /* CloudStorageNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51E42992B3C50059CE99 /* CloudStorageNetworking.swift */; };
+		5A0D51E72992B4660059CE99 /* CloudStorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51E62992B4660059CE99 /* CloudStorageKeys.swift */; };
+		5A0D51EC29934B120059CE99 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51EB29934B120059CE99 /* Colors.swift */; };
+		5A0D51EE29935A750059CE99 /* ResumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D51ED29935A750059CE99 /* ResumeTests.swift */; };
+		5A0D51F12993F72F0059CE99 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51F02993F72F0059CE99 /* FirebaseAnalytics */; };
+		5A0D51F32993F72F0059CE99 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51F22993F72F0059CE99 /* FirebaseAnalyticsOnDeviceConversion */; };
+		5A0D51F52993F72F0059CE99 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51F42993F72F0059CE99 /* FirebaseAnalyticsSwift */; };
+		5A0D51F72993F72F0059CE99 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51F62993F72F0059CE99 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		5A0D51F92993F72F0059CE99 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51F82993F72F0059CE99 /* FirebaseAppCheck */; };
+		5A0D51FB2993F72F0059CE99 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51FA2993F72F0059CE99 /* FirebaseAppDistribution-Beta */; };
+		5A0D51FD2993F72F0059CE99 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51FC2993F72F0059CE99 /* FirebaseAuth */; };
+		5A0D51FF2993F72F0059CE99 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D51FE2993F72F0059CE99 /* FirebaseAuthCombine-Community */; };
+		5A0D52012993F72F0059CE99 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52002993F72F0059CE99 /* FirebaseCrashlytics */; };
+		5A0D52032993F72F0059CE99 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52022993F72F0059CE99 /* FirebaseDatabase */; };
+		5A0D52052993F72F0059CE99 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52042993F72F0059CE99 /* FirebaseDatabaseSwift */; };
+		5A0D52072993F72F0059CE99 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52062993F72F0059CE99 /* FirebaseDynamicLinks */; };
+		5A0D52092993F72F0059CE99 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52082993F72F0059CE99 /* FirebaseFirestore */; };
+		5A0D520B2993F72F0059CE99 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D520A2993F72F0059CE99 /* FirebaseFirestoreCombine-Community */; };
+		5A0D520D2993F72F0059CE99 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D520C2993F72F0059CE99 /* FirebaseFirestoreSwift */; };
+		5A0D520F2993F72F0059CE99 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D520E2993F72F0059CE99 /* FirebaseFunctions */; };
+		5A0D52112993F72F0059CE99 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52102993F72F0059CE99 /* FirebaseFunctionsCombine-Community */; };
+		5A0D52132993F72F0059CE99 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52122993F72F0059CE99 /* FirebaseInAppMessaging-Beta */; };
+		5A0D52152993F72F0059CE99 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52142993F72F0059CE99 /* FirebaseInAppMessagingSwift-Beta */; };
+		5A0D52172993F72F0059CE99 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52162993F72F0059CE99 /* FirebaseInstallations */; };
+		5A0D52192993F72F0059CE99 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52182993F72F0059CE99 /* FirebaseMLModelDownloader */; };
+		5A0D521B2993F72F0059CE99 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D521A2993F72F0059CE99 /* FirebaseMessaging */; };
+		5A0D521D2993F72F0059CE99 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D521C2993F72F0059CE99 /* FirebasePerformance */; };
+		5A0D521F2993F72F0059CE99 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D521E2993F72F0059CE99 /* FirebaseRemoteConfig */; };
+		5A0D52212993F72F0059CE99 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52202993F72F0059CE99 /* FirebaseRemoteConfigSwift */; };
+		5A0D52232993F72F0059CE99 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52222993F72F0059CE99 /* FirebaseStorage */; };
+		5A0D52252993F72F0059CE99 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0D52242993F72F0059CE99 /* FirebaseStorageCombine-Community */; };
+		5A0D52272993F8670059CE99 /* TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D52262993F8670059CE99 /* TravelTests.swift */; };
+		5A8DA9F0299000C300387A18 /* TelaWittigPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA9EF299000C300387A18 /* TelaWittigPortfolioApp.swift */; };
+		5A8DA9F2299000C300387A18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA9F1299000C300387A18 /* ContentView.swift */; };
+		5A8DA9F4299000C400387A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA9F3299000C400387A18 /* Assets.xcassets */; };
+		5A8DA9F7299000C400387A18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DA9F6299000C400387A18 /* Preview Assets.xcassets */; };
+		5A8DA9F9299000C400387A18 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA9F8299000C400387A18 /* Persistence.swift */; };
+		5A8DA9FC299000C400387A18 /* TelaWittigPortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DA9FA299000C400387A18 /* TelaWittigPortfolio.xcdatamodeld */; };
+		5A8DAA06299000C400387A18 /* TelaWittigPortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA05299000C400387A18 /* TelaWittigPortfolioTests.swift */; };
+		5A8DAA10299000C400387A18 /* TelaWittigPortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA0F299000C400387A18 /* TelaWittigPortfolioUITests.swift */; };
+		5A8DAA12299000C400387A18 /* TelaWittigPortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA11299000C400387A18 /* TelaWittigPortfolioUITestsLaunchTests.swift */; };
+		5A8DAA1F2990022D00387A18 /* XCTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA1E2990022D00387A18 /* XCTestExtensions.swift */; };
+		5A8DAA3029914A7A00387A18 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA2F29914A7A00387A18 /* Background.swift */; };
+		5A8DAA442991501800387A18 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA322991501700387A18 /* Poppins-ExtraBoldItalic.ttf */; };
+		5A8DAA452991501800387A18 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA332991501700387A18 /* Poppins-LightItalic.ttf */; };
+		5A8DAA462991501800387A18 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA342991501700387A18 /* Poppins-BlackItalic.ttf */; };
+		5A8DAA472991501800387A18 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA352991501700387A18 /* Poppins-Light.ttf */; };
+		5A8DAA482991501800387A18 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA362991501700387A18 /* Poppins-Medium.ttf */; };
+		5A8DAA492991501800387A18 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA372991501700387A18 /* Poppins-MediumItalic.ttf */; };
+		5A8DAA4A2991501800387A18 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA382991501700387A18 /* Poppins-SemiBold.ttf */; };
+		5A8DAA4B2991501800387A18 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA392991501700387A18 /* Poppins-Thin.ttf */; };
+		5A8DAA4C2991501800387A18 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3A2991501700387A18 /* Poppins-SemiBoldItalic.ttf */; };
+		5A8DAA4D2991501800387A18 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3B2991501800387A18 /* Poppins-ExtraBold.ttf */; };
+		5A8DAA4E2991501800387A18 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3C2991501800387A18 /* Poppins-ExtraLight.ttf */; };
+		5A8DAA4F2991501800387A18 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3D2991501800387A18 /* Poppins-Italic.ttf */; };
+		5A8DAA502991501800387A18 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3E2991501800387A18 /* Poppins-ExtraLightItalic.ttf */; };
+		5A8DAA512991501800387A18 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3F2991501800387A18 /* Poppins-BoldItalic.ttf */; };
+		5A8DAA522991501800387A18 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA402991501800387A18 /* Poppins-ThinItalic.ttf */; };
+		5A8DAA532991501800387A18 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA412991501800387A18 /* Poppins-Regular.ttf */; };
+		5A8DAA542991501800387A18 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA422991501800387A18 /* Poppins-Black.ttf */; };
+		5A8DAA552991501800387A18 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA432991501800387A18 /* Poppins-Bold.ttf */; };
+		5A8DAA562991507500387A18 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA422991501800387A18 /* Poppins-Black.ttf */; };
+		5A8DAA572991507500387A18 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA342991501700387A18 /* Poppins-BlackItalic.ttf */; };
+		5A8DAA582991507500387A18 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA432991501800387A18 /* Poppins-Bold.ttf */; };
+		5A8DAA592991507500387A18 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3F2991501800387A18 /* Poppins-BoldItalic.ttf */; };
+		5A8DAA5A2991507500387A18 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3B2991501800387A18 /* Poppins-ExtraBold.ttf */; };
+		5A8DAA5B2991507500387A18 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA322991501700387A18 /* Poppins-ExtraBoldItalic.ttf */; };
+		5A8DAA5C2991507500387A18 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3C2991501800387A18 /* Poppins-ExtraLight.ttf */; };
+		5A8DAA5D2991507500387A18 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3E2991501800387A18 /* Poppins-ExtraLightItalic.ttf */; };
+		5A8DAA5E2991507500387A18 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3D2991501800387A18 /* Poppins-Italic.ttf */; };
+		5A8DAA5F2991507500387A18 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA352991501700387A18 /* Poppins-Light.ttf */; };
+		5A8DAA602991507500387A18 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA332991501700387A18 /* Poppins-LightItalic.ttf */; };
+		5A8DAA612991507500387A18 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA362991501700387A18 /* Poppins-Medium.ttf */; };
+		5A8DAA622991507500387A18 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA372991501700387A18 /* Poppins-MediumItalic.ttf */; };
+		5A8DAA632991507500387A18 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA412991501800387A18 /* Poppins-Regular.ttf */; };
+		5A8DAA642991507500387A18 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA382991501700387A18 /* Poppins-SemiBold.ttf */; };
+		5A8DAA652991507500387A18 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA3A2991501700387A18 /* Poppins-SemiBoldItalic.ttf */; };
+		5A8DAA662991507500387A18 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA392991501700387A18 /* Poppins-Thin.ttf */; };
+		5A8DAA672991507500387A18 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA402991501800387A18 /* Poppins-ThinItalic.ttf */; };
+		5A8DAA6A2991528D00387A18 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA692991528D00387A18 /* Fonts.swift */; };
+		5A8DAA6E29915D9B00387A18 /* ResumeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA6D29915D9B00387A18 /* ResumeListItem.swift */; };
+		5A8DAA7029915DBA00387A18 /* ResumeListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA6F29915DBA00387A18 /* ResumeListItemView.swift */; };
+		5A8DAA722991611A00387A18 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA712991611A00387A18 /* ResumeView.swift */; };
+		5A8DAA76299162B100387A18 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA75299162B100387A18 /* DateExtensions.swift */; };
+		5A8DAA78299163F300387A18 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA77299163F300387A18 /* ColorExtensions.swift */; };
+		5A8DAA7A2991645900387A18 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA792991645900387A18 /* ViewExtensions.swift */; };
+		5A8DAA7C2991741D00387A18 /* GFSDidot-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAA7B2991741D00387A18 /* GFSDidot-Regular.ttf */; };
+		5A8DAA7F29917AC800387A18 /* ExtracurricularsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA7E29917AC800387A18 /* ExtracurricularsView.swift */; };
+		5A8DAA88299181F800387A18 /* ExtracurricularsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA87299181F800387A18 /* ExtracurricularsViewModel.swift */; };
+		5A8DAA8A2991832000387A18 /* Extracurricular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA892991832000387A18 /* Extracurricular.swift */; };
+		5A8DAA8D2991860F00387A18 /* SocialLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA8C2991860F00387A18 /* SocialLinksView.swift */; };
+		5A8DAA8F2991889F00387A18 /* SocialLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA8E2991889F00387A18 /* SocialLinkView.swift */; };
+		5A8DAA91299188D900387A18 /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA90299188D900387A18 /* SocialMedia.swift */; };
+		5A8DAA9329918B3200387A18 /* ExtracurricularCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA9229918B3200387A18 /* ExtracurricularCard.swift */; };
+		5A8DAA9529918BC100387A18 /* SocialDetailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA9429918BC100387A18 /* SocialDetailWebView.swift */; };
+		5A8DAA9829918C6C00387A18 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA9729918C6C00387A18 /* WebView.swift */; };
+		5A8DAA9A29918C9E00387A18 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DAA9929918C9E00387A18 /* WebViewModel.swift */; };
+		5A8DAAA22991A6DF00387A18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DAAA12991A6DF00387A18 /* GoogleService-Info.plist */; };
+		5AD9EACC29941314008E564F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9EACB29941314008E564F /* CustomModifiers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A8DAA02299000C400387A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8DA9E4299000C300387A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8DA9EB299000C300387A18;
+			remoteInfo = TelaWittigPortfolio;
+		};
+		5A8DAA0C299000C400387A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8DA9E4299000C300387A18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8DA9EB299000C300387A18;
+			remoteInfo = TelaWittigPortfolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0D51C22991AAD80059CE99 /* SocialLinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinksViewModel.swift; sourceTree = "<group>"; };
+		5A0D51C52991AB4D0059CE99 /* FirestoreNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreNetworking.swift; sourceTree = "<group>"; };
+		5A0D51C72991ABC50059CE99 /* FirebaseKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseKeys.swift; sourceTree = "<group>"; };
+		5A0D51C92991ACBE0059CE99 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		5A0D51CB2991D5AF0059CE99 /* ResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModel.swift; sourceTree = "<group>"; };
+		5A0D51CE2991DEED0059CE99 /* RepresentOnTheAppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentOnTheAppStoreView.swift; sourceTree = "<group>"; };
+		5A0D51D02991E6720059CE99 /* AppImagesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImagesDetailView.swift; sourceTree = "<group>"; };
+		5A0D51D32991ECEA0059CE99 /* PublicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationsView.swift; sourceTree = "<group>"; };
+		5A0D51D6299290740059CE99 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		5A0D51D82992911F0059CE99 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		5A0D51DA299294340059CE99 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		5A0D51DC299294640059CE99 /* TravelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewModel.swift; sourceTree = "<group>"; };
+		5A0D51DE2992950D0059CE99 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5A0D51E029929F8C0059CE99 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		5A0D51E42992B3C50059CE99 /* CloudStorageNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorageNetworking.swift; sourceTree = "<group>"; };
+		5A0D51E62992B4660059CE99 /* CloudStorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorageKeys.swift; sourceTree = "<group>"; };
+		5A0D51EB29934B120059CE99 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5A0D51ED29935A750059CE99 /* ResumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeTests.swift; sourceTree = "<group>"; };
+		5A0D52262993F8670059CE99 /* TravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTests.swift; sourceTree = "<group>"; };
+		5A8DA9EC299000C300387A18 /* TelaWittigPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaWittigPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8DA9EF299000C300387A18 /* TelaWittigPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaWittigPortfolioApp.swift; sourceTree = "<group>"; };
+		5A8DA9F1299000C300387A18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A8DA9F3299000C400387A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8DA9F6299000C400387A18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A8DA9F8299000C400387A18 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5A8DA9FB299000C400387A18 /* TelaWittigPortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelaWittigPortfolio.xcdatamodel; sourceTree = "<group>"; };
+		5A8DAA01299000C400387A18 /* TelaWittigPortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaWittigPortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8DAA05299000C400387A18 /* TelaWittigPortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaWittigPortfolioTests.swift; sourceTree = "<group>"; };
+		5A8DAA0B299000C400387A18 /* TelaWittigPortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaWittigPortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8DAA0F299000C400387A18 /* TelaWittigPortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaWittigPortfolioUITests.swift; sourceTree = "<group>"; };
+		5A8DAA11299000C400387A18 /* TelaWittigPortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaWittigPortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A8DAA1E2990022D00387A18 /* XCTestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExtensions.swift; sourceTree = "<group>"; };
+		5A8DAA2F29914A7A00387A18 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		5A8DAA322991501700387A18 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA332991501700387A18 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA342991501700387A18 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA352991501700387A18 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		5A8DAA362991501700387A18 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5A8DAA372991501700387A18 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA382991501700387A18 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5A8DAA392991501700387A18 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		5A8DAA3A2991501700387A18 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA3B2991501800387A18 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5A8DAA3C2991501800387A18 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5A8DAA3D2991501800387A18 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		5A8DAA3E2991501800387A18 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA3F2991501800387A18 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA402991501800387A18 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5A8DAA412991501800387A18 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5A8DAA422991501800387A18 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		5A8DAA432991501800387A18 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5A8DAA682991511D00387A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A8DAA692991528D00387A18 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		5A8DAA6D29915D9B00387A18 /* ResumeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeListItem.swift; sourceTree = "<group>"; };
+		5A8DAA6F29915DBA00387A18 /* ResumeListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeListItemView.swift; sourceTree = "<group>"; };
+		5A8DAA712991611A00387A18 /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		5A8DAA75299162B100387A18 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		5A8DAA77299163F300387A18 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		5A8DAA792991645900387A18 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		5A8DAA7B2991741D00387A18 /* GFSDidot-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GFSDidot-Regular.ttf"; sourceTree = "<group>"; };
+		5A8DAA7E29917AC800387A18 /* ExtracurricularsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracurricularsView.swift; sourceTree = "<group>"; };
+		5A8DAA87299181F800387A18 /* ExtracurricularsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracurricularsViewModel.swift; sourceTree = "<group>"; };
+		5A8DAA892991832000387A18 /* Extracurricular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extracurricular.swift; sourceTree = "<group>"; };
+		5A8DAA8C2991860F00387A18 /* SocialLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinksView.swift; sourceTree = "<group>"; };
+		5A8DAA8E2991889F00387A18 /* SocialLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinkView.swift; sourceTree = "<group>"; };
+		5A8DAA90299188D900387A18 /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		5A8DAA9229918B3200387A18 /* ExtracurricularCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracurricularCard.swift; sourceTree = "<group>"; };
+		5A8DAA9429918BC100387A18 /* SocialDetailWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialDetailWebView.swift; sourceTree = "<group>"; };
+		5A8DAA9729918C6C00387A18 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5A8DAA9929918C9E00387A18 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		5A8DAAA12991A6DF00387A18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AD9EACB29941314008E564F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8DA9E9299000C300387A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0D52032993F72F0059CE99 /* FirebaseDatabase in Frameworks */,
+				5A0D52112993F72F0059CE99 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				5A0D52092993F72F0059CE99 /* FirebaseFirestore in Frameworks */,
+				5A0D51F52993F72F0059CE99 /* FirebaseAnalyticsSwift in Frameworks */,
+				5A0D51F12993F72F0059CE99 /* FirebaseAnalytics in Frameworks */,
+				5A0D51F32993F72F0059CE99 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				5A0D52192993F72F0059CE99 /* FirebaseMLModelDownloader in Frameworks */,
+				5A0D520D2993F72F0059CE99 /* FirebaseFirestoreSwift in Frameworks */,
+				5A0D51F92993F72F0059CE99 /* FirebaseAppCheck in Frameworks */,
+				5A0D51F72993F72F0059CE99 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				5A0D51FD2993F72F0059CE99 /* FirebaseAuth in Frameworks */,
+				5A0D52012993F72F0059CE99 /* FirebaseCrashlytics in Frameworks */,
+				5A0D52212993F72F0059CE99 /* FirebaseRemoteConfigSwift in Frameworks */,
+				5A0D52132993F72F0059CE99 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				5A0D52052993F72F0059CE99 /* FirebaseDatabaseSwift in Frameworks */,
+				5A0D520F2993F72F0059CE99 /* FirebaseFunctions in Frameworks */,
+				5A0D52252993F72F0059CE99 /* FirebaseStorageCombine-Community in Frameworks */,
+				5A0D521F2993F72F0059CE99 /* FirebaseRemoteConfig in Frameworks */,
+				5A0D51FB2993F72F0059CE99 /* FirebaseAppDistribution-Beta in Frameworks */,
+				5A0D51FF2993F72F0059CE99 /* FirebaseAuthCombine-Community in Frameworks */,
+				5A0D521D2993F72F0059CE99 /* FirebasePerformance in Frameworks */,
+				5A0D52152993F72F0059CE99 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				5A0D52232993F72F0059CE99 /* FirebaseStorage in Frameworks */,
+				5A0D52072993F72F0059CE99 /* FirebaseDynamicLinks in Frameworks */,
+				5A0D520B2993F72F0059CE99 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				5A0D521B2993F72F0059CE99 /* FirebaseMessaging in Frameworks */,
+				5A0D52172993F72F0059CE99 /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DA9FE299000C400387A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DAA08299000C400387A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0D51C42991AB320059CE99 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51C52991AB4D0059CE99 /* FirestoreNetworking.swift */,
+				5A0D51C72991ABC50059CE99 /* FirebaseKeys.swift */,
+				5A0D51C92991ACBE0059CE99 /* Errors.swift */,
+				5A0D51E42992B3C50059CE99 /* CloudStorageNetworking.swift */,
+				5A0D51E62992B4660059CE99 /* CloudStorageKeys.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5A0D51CD2991DECE0059CE99 /* RepresentOnTheAppStore */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D52282993FACE0059CE99 /* Models */,
+				5A0D52292993FADC0059CE99 /* Views */,
+				5A0D522A2993FAE50059CE99 /* ViewModels */,
+			);
+			path = RepresentOnTheAppStore;
+			sourceTree = "<group>";
+		};
+		5A0D51D22991ECDA0059CE99 /* Publications */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D52362993FB3B0059CE99 /* Models */,
+				5A0D52352993FB370059CE99 /* Views */,
+				5A0D52342993FB320059CE99 /* ViewModels */,
+			);
+			path = Publications;
+			sourceTree = "<group>";
+		};
+		5A0D51D5299290530059CE99 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D52392993FB4A0059CE99 /* Models */,
+				5A0D52382993FB450059CE99 /* Views */,
+				5A0D52372993FB400059CE99 /* ViewModels */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		5A0D51EA29934B000059CE99 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51EB29934B120059CE99 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5A0D52282993FACE0059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0D52292993FADC0059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51CE2991DEED0059CE99 /* RepresentOnTheAppStoreView.swift */,
+				5A0D51D02991E6720059CE99 /* AppImagesDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D522A2993FAE50059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D522B2993FAF80059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51CB2991D5AF0059CE99 /* ResumeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D522C2993FB020059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA712991611A00387A18 /* ResumeView.swift */,
+				5A8DAA6F29915DBA00387A18 /* ResumeListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D522D2993FB070059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA6D29915D9B00387A18 /* ResumeListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0D522E2993FB0E0059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51C22991AAD80059CE99 /* SocialLinksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D522F2993FB140059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA8C2991860F00387A18 /* SocialLinksView.swift */,
+				5A8DAA8E2991889F00387A18 /* SocialLinkView.swift */,
+				5A8DAA9429918BC100387A18 /* SocialDetailWebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D52302993FB1A0059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA90299188D900387A18 /* SocialMedia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0D52312993FB1E0059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA87299181F800387A18 /* ExtracurricularsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D52322993FB230059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA9229918B3200387A18 /* ExtracurricularCard.swift */,
+				5A8DAA7E29917AC800387A18 /* ExtracurricularsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D52332993FB2D0059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA892991832000387A18 /* Extracurricular.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0D52342993FB320059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D52352993FB370059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51D32991ECEA0059CE99 /* PublicationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D52362993FB3B0059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0D52372993FB400059CE99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51DC299294640059CE99 /* TravelViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A0D52382993FB450059CE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51D6299290740059CE99 /* TravelView.swift */,
+				5A0D51D82992911F0059CE99 /* TravelDetailView.swift */,
+				5A0D51E029929F8C0059CE99 /* DestinationView.swift */,
+				5A0D51DE2992950D0059CE99 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A0D52392993FB4A0059CE99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D51DA299294340059CE99 /* Destination.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A8DA9E3299000C300387A18 = {
+			isa = PBXGroup;
+			children = (
+				5A8DA9EE299000C300387A18 /* TelaWittigPortfolio */,
+				5A8DAA04299000C400387A18 /* TelaWittigPortfolioTests */,
+				5A8DAA0E299000C400387A18 /* TelaWittigPortfolioUITests */,
+				5A8DA9ED299000C300387A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8DA9ED299000C300387A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA9EC299000C300387A18 /* TelaWittigPortfolio.app */,
+				5A8DAA01299000C400387A18 /* TelaWittigPortfolioTests.xctest */,
+				5A8DAA0B299000C400387A18 /* TelaWittigPortfolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8DA9EE299000C300387A18 /* TelaWittigPortfolio */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA9EF299000C300387A18 /* TelaWittigPortfolioApp.swift */,
+				5A8DA9F1299000C300387A18 /* ContentView.swift */,
+				5A8DA9F8299000C400387A18 /* Persistence.swift */,
+				5A8DAA6C29915D6C00387A18 /* Main */,
+				5A0D51C42991AB320059CE99 /* Networking */,
+				5A8DAA732991629300387A18 /* Helpers */,
+				5AD9EACA299412F4008E564F /* CustomModifiers */,
+				5A8DAA3129914FDD00387A18 /* Fonts */,
+				5A0D51EA29934B000059CE99 /* Colors */,
+				5A8DA9F3299000C400387A18 /* Assets.xcassets */,
+				5A8DA9FA299000C400387A18 /* TelaWittigPortfolio.xcdatamodeld */,
+				5A8DAA682991511D00387A18 /* Info.plist */,
+				5A8DAAA12991A6DF00387A18 /* GoogleService-Info.plist */,
+				5A8DA9F5299000C400387A18 /* Preview Content */,
+			);
+			path = TelaWittigPortfolio;
+			sourceTree = "<group>";
+		};
+		5A8DA9F5299000C400387A18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DA9F6299000C400387A18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A8DAA04299000C400387A18 /* TelaWittigPortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA05299000C400387A18 /* TelaWittigPortfolioTests.swift */,
+				5A8DAA1E2990022D00387A18 /* XCTestExtensions.swift */,
+				5A0D51ED29935A750059CE99 /* ResumeTests.swift */,
+				5A0D52262993F8670059CE99 /* TravelTests.swift */,
+			);
+			path = TelaWittigPortfolioTests;
+			sourceTree = "<group>";
+		};
+		5A8DAA0E299000C400387A18 /* TelaWittigPortfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA0F299000C400387A18 /* TelaWittigPortfolioUITests.swift */,
+				5A8DAA11299000C400387A18 /* TelaWittigPortfolioUITestsLaunchTests.swift */,
+			);
+			path = TelaWittigPortfolioUITests;
+			sourceTree = "<group>";
+		};
+		5A8DAA2E29914A6300387A18 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA2F29914A7A00387A18 /* Background.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		5A8DAA3129914FDD00387A18 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA692991528D00387A18 /* Fonts.swift */,
+				5A8DAA7B2991741D00387A18 /* GFSDidot-Regular.ttf */,
+				5A8DAA422991501800387A18 /* Poppins-Black.ttf */,
+				5A8DAA342991501700387A18 /* Poppins-BlackItalic.ttf */,
+				5A8DAA432991501800387A18 /* Poppins-Bold.ttf */,
+				5A8DAA3F2991501800387A18 /* Poppins-BoldItalic.ttf */,
+				5A8DAA3B2991501800387A18 /* Poppins-ExtraBold.ttf */,
+				5A8DAA322991501700387A18 /* Poppins-ExtraBoldItalic.ttf */,
+				5A8DAA3C2991501800387A18 /* Poppins-ExtraLight.ttf */,
+				5A8DAA3E2991501800387A18 /* Poppins-ExtraLightItalic.ttf */,
+				5A8DAA3D2991501800387A18 /* Poppins-Italic.ttf */,
+				5A8DAA352991501700387A18 /* Poppins-Light.ttf */,
+				5A8DAA332991501700387A18 /* Poppins-LightItalic.ttf */,
+				5A8DAA362991501700387A18 /* Poppins-Medium.ttf */,
+				5A8DAA372991501700387A18 /* Poppins-MediumItalic.ttf */,
+				5A8DAA412991501800387A18 /* Poppins-Regular.ttf */,
+				5A8DAA382991501700387A18 /* Poppins-SemiBold.ttf */,
+				5A8DAA3A2991501700387A18 /* Poppins-SemiBoldItalic.ttf */,
+				5A8DAA392991501700387A18 /* Poppins-Thin.ttf */,
+				5A8DAA402991501800387A18 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5A8DAA6B29915D5C00387A18 /* ResumeSection */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D522D2993FB070059CE99 /* Models */,
+				5A0D522C2993FB020059CE99 /* Views */,
+				5A0D522B2993FAF80059CE99 /* ViewModels */,
+			);
+			path = ResumeSection;
+			sourceTree = "<group>";
+		};
+		5A8DAA6C29915D6C00387A18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA2E29914A6300387A18 /* Background */,
+				5A0D51CD2991DECE0059CE99 /* RepresentOnTheAppStore */,
+				5A8DAA6B29915D5C00387A18 /* ResumeSection */,
+				5A8DAA8B299185F700387A18 /* SocialLinks */,
+				5A8DAA7D29917A8A00387A18 /* Extracurriculars */,
+				5A0D51D22991ECDA0059CE99 /* Publications */,
+				5A0D51D5299290530059CE99 /* Travel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5A8DAA732991629300387A18 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA9629918C5400387A18 /* WebViews */,
+				5A8DAA742991629E00387A18 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5A8DAA742991629E00387A18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA75299162B100387A18 /* DateExtensions.swift */,
+				5A8DAA77299163F300387A18 /* ColorExtensions.swift */,
+				5A8DAA792991645900387A18 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A8DAA7D29917A8A00387A18 /* Extracurriculars */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D52332993FB2D0059CE99 /* Models */,
+				5A0D52322993FB230059CE99 /* Views */,
+				5A0D52312993FB1E0059CE99 /* ViewModels */,
+			);
+			path = Extracurriculars;
+			sourceTree = "<group>";
+		};
+		5A8DAA8B299185F700387A18 /* SocialLinks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D52302993FB1A0059CE99 /* Models */,
+				5A0D522F2993FB140059CE99 /* Views */,
+				5A0D522E2993FB0E0059CE99 /* ViewModels */,
+			);
+			path = SocialLinks;
+			sourceTree = "<group>";
+		};
+		5A8DAA9629918C5400387A18 /* WebViews */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DAA9729918C6C00387A18 /* WebView.swift */,
+				5A8DAA9929918C9E00387A18 /* WebViewModel.swift */,
+			);
+			path = WebViews;
+			sourceTree = "<group>";
+		};
+		5AD9EACA299412F4008E564F /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5AD9EACB29941314008E564F /* CustomModifiers.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8DA9EB299000C300387A18 /* TelaWittigPortfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8DAA15299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolio" */;
+			buildPhases = (
+				5A8DA9E8299000C300387A18 /* Sources */,
+				5A8DA9E9299000C300387A18 /* Frameworks */,
+				5A8DA9EA299000C300387A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelaWittigPortfolio;
+			packageProductDependencies = (
+				5A0D51F02993F72F0059CE99 /* FirebaseAnalytics */,
+				5A0D51F22993F72F0059CE99 /* FirebaseAnalyticsOnDeviceConversion */,
+				5A0D51F42993F72F0059CE99 /* FirebaseAnalyticsSwift */,
+				5A0D51F62993F72F0059CE99 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				5A0D51F82993F72F0059CE99 /* FirebaseAppCheck */,
+				5A0D51FA2993F72F0059CE99 /* FirebaseAppDistribution-Beta */,
+				5A0D51FC2993F72F0059CE99 /* FirebaseAuth */,
+				5A0D51FE2993F72F0059CE99 /* FirebaseAuthCombine-Community */,
+				5A0D52002993F72F0059CE99 /* FirebaseCrashlytics */,
+				5A0D52022993F72F0059CE99 /* FirebaseDatabase */,
+				5A0D52042993F72F0059CE99 /* FirebaseDatabaseSwift */,
+				5A0D52062993F72F0059CE99 /* FirebaseDynamicLinks */,
+				5A0D52082993F72F0059CE99 /* FirebaseFirestore */,
+				5A0D520A2993F72F0059CE99 /* FirebaseFirestoreCombine-Community */,
+				5A0D520C2993F72F0059CE99 /* FirebaseFirestoreSwift */,
+				5A0D520E2993F72F0059CE99 /* FirebaseFunctions */,
+				5A0D52102993F72F0059CE99 /* FirebaseFunctionsCombine-Community */,
+				5A0D52122993F72F0059CE99 /* FirebaseInAppMessaging-Beta */,
+				5A0D52142993F72F0059CE99 /* FirebaseInAppMessagingSwift-Beta */,
+				5A0D52162993F72F0059CE99 /* FirebaseInstallations */,
+				5A0D52182993F72F0059CE99 /* FirebaseMLModelDownloader */,
+				5A0D521A2993F72F0059CE99 /* FirebaseMessaging */,
+				5A0D521C2993F72F0059CE99 /* FirebasePerformance */,
+				5A0D521E2993F72F0059CE99 /* FirebaseRemoteConfig */,
+				5A0D52202993F72F0059CE99 /* FirebaseRemoteConfigSwift */,
+				5A0D52222993F72F0059CE99 /* FirebaseStorage */,
+				5A0D52242993F72F0059CE99 /* FirebaseStorageCombine-Community */,
+			);
+			productName = TelaWittigPortfolio;
+			productReference = 5A8DA9EC299000C300387A18 /* TelaWittigPortfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A8DAA00299000C400387A18 /* TelaWittigPortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8DAA18299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolioTests" */;
+			buildPhases = (
+				5A8DA9FD299000C400387A18 /* Sources */,
+				5A8DA9FE299000C400387A18 /* Frameworks */,
+				5A8DA9FF299000C400387A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8DAA03299000C400387A18 /* PBXTargetDependency */,
+			);
+			name = TelaWittigPortfolioTests;
+			productName = TelaWittigPortfolioTests;
+			productReference = 5A8DAA01299000C400387A18 /* TelaWittigPortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A8DAA0A299000C400387A18 /* TelaWittigPortfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8DAA1B299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolioUITests" */;
+			buildPhases = (
+				5A8DAA07299000C400387A18 /* Sources */,
+				5A8DAA08299000C400387A18 /* Frameworks */,
+				5A8DAA09299000C400387A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8DAA0D299000C400387A18 /* PBXTargetDependency */,
+			);
+			name = TelaWittigPortfolioUITests;
+			productName = TelaWittigPortfolioUITests;
+			productReference = 5A8DAA0B299000C400387A18 /* TelaWittigPortfolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8DA9E4299000C300387A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5A8DA9EB299000C300387A18 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5A8DAA00299000C400387A18 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5A8DA9EB299000C300387A18;
+					};
+					5A8DAA0A299000C400387A18 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5A8DA9EB299000C300387A18;
+					};
+				};
+			};
+			buildConfigurationList = 5A8DA9E7299000C300387A18 /* Build configuration list for PBXProject "TelaWittigPortfolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A8DA9E3299000C300387A18;
+			packageReferences = (
+				5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5A8DA9ED299000C300387A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8DA9EB299000C300387A18 /* TelaWittigPortfolio */,
+				5A8DAA00299000C400387A18 /* TelaWittigPortfolioTests */,
+				5A8DAA0A299000C400387A18 /* TelaWittigPortfolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8DA9EA299000C300387A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DAA7C2991741D00387A18 /* GFSDidot-Regular.ttf in Resources */,
+				5A8DAA4C2991501800387A18 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				5A8DAA442991501800387A18 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				5A8DAA4F2991501800387A18 /* Poppins-Italic.ttf in Resources */,
+				5A8DAA532991501800387A18 /* Poppins-Regular.ttf in Resources */,
+				5A8DAAA22991A6DF00387A18 /* GoogleService-Info.plist in Resources */,
+				5A8DAA492991501800387A18 /* Poppins-MediumItalic.ttf in Resources */,
+				5A8DAA542991501800387A18 /* Poppins-Black.ttf in Resources */,
+				5A8DAA482991501800387A18 /* Poppins-Medium.ttf in Resources */,
+				5A8DAA552991501800387A18 /* Poppins-Bold.ttf in Resources */,
+				5A8DAA522991501800387A18 /* Poppins-ThinItalic.ttf in Resources */,
+				5A8DAA4D2991501800387A18 /* Poppins-ExtraBold.ttf in Resources */,
+				5A8DAA472991501800387A18 /* Poppins-Light.ttf in Resources */,
+				5A8DA9F7299000C400387A18 /* Preview Assets.xcassets in Resources */,
+				5A8DAA462991501800387A18 /* Poppins-BlackItalic.ttf in Resources */,
+				5A8DAA4A2991501800387A18 /* Poppins-SemiBold.ttf in Resources */,
+				5A8DA9F4299000C400387A18 /* Assets.xcassets in Resources */,
+				5A8DAA452991501800387A18 /* Poppins-LightItalic.ttf in Resources */,
+				5A8DAA502991501800387A18 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				5A8DAA4B2991501800387A18 /* Poppins-Thin.ttf in Resources */,
+				5A8DAA4E2991501800387A18 /* Poppins-ExtraLight.ttf in Resources */,
+				5A8DAA512991501800387A18 /* Poppins-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DA9FF299000C400387A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DAA09299000C400387A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DAA562991507500387A18 /* Poppins-Black.ttf in Resources */,
+				5A8DAA572991507500387A18 /* Poppins-BlackItalic.ttf in Resources */,
+				5A8DAA582991507500387A18 /* Poppins-Bold.ttf in Resources */,
+				5A8DAA592991507500387A18 /* Poppins-BoldItalic.ttf in Resources */,
+				5A8DAA5A2991507500387A18 /* Poppins-ExtraBold.ttf in Resources */,
+				5A8DAA5B2991507500387A18 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				5A8DAA5C2991507500387A18 /* Poppins-ExtraLight.ttf in Resources */,
+				5A8DAA5D2991507500387A18 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				5A8DAA5E2991507500387A18 /* Poppins-Italic.ttf in Resources */,
+				5A8DAA5F2991507500387A18 /* Poppins-Light.ttf in Resources */,
+				5A8DAA602991507500387A18 /* Poppins-LightItalic.ttf in Resources */,
+				5A8DAA612991507500387A18 /* Poppins-Medium.ttf in Resources */,
+				5A8DAA622991507500387A18 /* Poppins-MediumItalic.ttf in Resources */,
+				5A8DAA632991507500387A18 /* Poppins-Regular.ttf in Resources */,
+				5A8DAA642991507500387A18 /* Poppins-SemiBold.ttf in Resources */,
+				5A8DAA652991507500387A18 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				5A8DAA662991507500387A18 /* Poppins-Thin.ttf in Resources */,
+				5A8DAA672991507500387A18 /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8DA9E8299000C300387A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0D51D7299290740059CE99 /* TravelView.swift in Sources */,
+				5A8DAA9329918B3200387A18 /* ExtracurricularCard.swift in Sources */,
+				5A0D51DD299294640059CE99 /* TravelViewModel.swift in Sources */,
+				5A8DA9FC299000C400387A18 /* TelaWittigPortfolio.xcdatamodeld in Sources */,
+				5A0D51C32991AAD80059CE99 /* SocialLinksViewModel.swift in Sources */,
+				5A8DAA9A29918C9E00387A18 /* WebViewModel.swift in Sources */,
+				5A0D51DF2992950D0059CE99 /* MapView.swift in Sources */,
+				5A0D51E52992B3C50059CE99 /* CloudStorageNetworking.swift in Sources */,
+				5A0D51D42991ECEA0059CE99 /* PublicationsView.swift in Sources */,
+				5A0D51EC29934B120059CE99 /* Colors.swift in Sources */,
+				5A8DAA6E29915D9B00387A18 /* ResumeListItem.swift in Sources */,
+				5A8DAA7029915DBA00387A18 /* ResumeListItemView.swift in Sources */,
+				5A0D51CA2991ACBE0059CE99 /* Errors.swift in Sources */,
+				5A8DAA722991611A00387A18 /* ResumeView.swift in Sources */,
+				5A8DAA88299181F800387A18 /* ExtracurricularsViewModel.swift in Sources */,
+				5A0D51C82991ABC50059CE99 /* FirebaseKeys.swift in Sources */,
+				5A8DA9F9299000C400387A18 /* Persistence.swift in Sources */,
+				5A8DA9F2299000C300387A18 /* ContentView.swift in Sources */,
+				5A8DAA8A2991832000387A18 /* Extracurricular.swift in Sources */,
+				5A8DAA8F2991889F00387A18 /* SocialLinkView.swift in Sources */,
+				5A0D51D12991E6720059CE99 /* AppImagesDetailView.swift in Sources */,
+				5AD9EACC29941314008E564F /* CustomModifiers.swift in Sources */,
+				5A0D51CC2991D5AF0059CE99 /* ResumeViewModel.swift in Sources */,
+				5A8DAA9829918C6C00387A18 /* WebView.swift in Sources */,
+				5A0D51DB299294340059CE99 /* Destination.swift in Sources */,
+				5A8DAA76299162B100387A18 /* DateExtensions.swift in Sources */,
+				5A8DAA91299188D900387A18 /* SocialMedia.swift in Sources */,
+				5A8DAA3029914A7A00387A18 /* Background.swift in Sources */,
+				5A0D51CF2991DEED0059CE99 /* RepresentOnTheAppStoreView.swift in Sources */,
+				5A0D51D92992911F0059CE99 /* TravelDetailView.swift in Sources */,
+				5A8DAA7A2991645900387A18 /* ViewExtensions.swift in Sources */,
+				5A8DAA6A2991528D00387A18 /* Fonts.swift in Sources */,
+				5A8DAA9529918BC100387A18 /* SocialDetailWebView.swift in Sources */,
+				5A8DAA8D2991860F00387A18 /* SocialLinksView.swift in Sources */,
+				5A0D51E129929F8C0059CE99 /* DestinationView.swift in Sources */,
+				5A8DAA78299163F300387A18 /* ColorExtensions.swift in Sources */,
+				5A8DAA7F29917AC800387A18 /* ExtracurricularsView.swift in Sources */,
+				5A0D51C62991AB4D0059CE99 /* FirestoreNetworking.swift in Sources */,
+				5A8DA9F0299000C300387A18 /* TelaWittigPortfolioApp.swift in Sources */,
+				5A0D51E72992B4660059CE99 /* CloudStorageKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DA9FD299000C400387A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DAA1F2990022D00387A18 /* XCTestExtensions.swift in Sources */,
+				5A8DAA06299000C400387A18 /* TelaWittigPortfolioTests.swift in Sources */,
+				5A0D52272993F8670059CE99 /* TravelTests.swift in Sources */,
+				5A0D51EE29935A750059CE99 /* ResumeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8DAA07299000C400387A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8DAA10299000C400387A18 /* TelaWittigPortfolioUITests.swift in Sources */,
+				5A8DAA12299000C400387A18 /* TelaWittigPortfolioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A8DAA03299000C400387A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8DA9EB299000C300387A18 /* TelaWittigPortfolio */;
+			targetProxy = 5A8DAA02299000C400387A18 /* PBXContainerItemProxy */;
+		};
+		5A8DAA0D299000C400387A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8DA9EB299000C300387A18 /* TelaWittigPortfolio */;
+			targetProxy = 5A8DAA0C299000C400387A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8DAA13299000C400387A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A8DAA14299000C400387A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8DAA16299000C400387A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelaWittigPortfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaWittigPortfolio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8DAA17299000C400387A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelaWittigPortfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaWittigPortfolio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A8DAA19299000C400387A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaWittigPortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelaWittigPortfolio";
+			};
+			name = Debug;
+		};
+		5A8DAA1A299000C400387A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaWittigPortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelaWittigPortfolio";
+			};
+			name = Release;
+		};
+		5A8DAA1C299000C400387A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaWittigPortfolio;
+			};
+			name = Debug;
+		};
+		5A8DAA1D299000C400387A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44X6NK2Q9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telawittig.TelaWittigPortfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaWittigPortfolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8DA9E7299000C300387A18 /* Build configuration list for PBXProject "TelaWittigPortfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DAA13299000C400387A18 /* Debug */,
+				5A8DAA14299000C400387A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8DAA15299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DAA16299000C400387A18 /* Debug */,
+				5A8DAA17299000C400387A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8DAA18299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DAA19299000C400387A18 /* Debug */,
+				5A8DAA1A299000C400387A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8DAA1B299000C400387A18 /* Build configuration list for PBXNativeTarget "TelaWittigPortfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8DAA1C299000C400387A18 /* Debug */,
+				5A8DAA1D299000C400387A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A0D51F02993F72F0059CE99 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5A0D51F22993F72F0059CE99 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		5A0D51F42993F72F0059CE99 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		5A0D51F62993F72F0059CE99 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		5A0D51F82993F72F0059CE99 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		5A0D51FA2993F72F0059CE99 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		5A0D51FC2993F72F0059CE99 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5A0D51FE2993F72F0059CE99 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		5A0D52002993F72F0059CE99 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		5A0D52022993F72F0059CE99 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5A0D52042993F72F0059CE99 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		5A0D52062993F72F0059CE99 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		5A0D52082993F72F0059CE99 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5A0D520A2993F72F0059CE99 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		5A0D520C2993F72F0059CE99 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		5A0D520E2993F72F0059CE99 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		5A0D52102993F72F0059CE99 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		5A0D52122993F72F0059CE99 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		5A0D52142993F72F0059CE99 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		5A0D52162993F72F0059CE99 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		5A0D52182993F72F0059CE99 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		5A0D521A2993F72F0059CE99 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		5A0D521C2993F72F0059CE99 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		5A0D521E2993F72F0059CE99 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		5A0D52202993F72F0059CE99 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		5A0D52222993F72F0059CE99 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		5A0D52242993F72F0059CE99 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A0D51EF2993F72F0059CE99 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		5A8DA9FA299000C400387A18 /* TelaWittigPortfolio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A8DA9FB299000C400387A18 /* TelaWittigPortfolio.xcdatamodel */,
+			);
+			currentVersion = 5A8DA9FB299000C400387A18 /* TelaWittigPortfolio.xcdatamodel */;
+			path = TelaWittigPortfolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A8DA9E4299000C300387A18 /* Project object */;
+}

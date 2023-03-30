@@ -52,7 +52,7 @@ struct ContentView: View {
                                 Image("linkedIn")
                                     .resizable()
                                     .scaledToFit()
-                                    .padding(5)
+                                    .padding(6)
                                     .modifier(SocialButtonModifier())
                                 
                             }
